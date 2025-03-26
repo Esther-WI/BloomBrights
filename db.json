@@ -1,0 +1,76 @@
+{
+  "quotes": [
+    {
+      "id": "1",
+      "text": "Happiness depends upon ourselves.",
+      "author": "Aristotle"
+    },
+    {
+      "id": "2",
+      "text": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+      "author": "Walt Whitman"
+    },
+    {
+      "id": "3",
+      "text": "Difficulties in life are intended to make us better, not bitter.",
+      "author": "Dan Reeves"
+    }
+  ],
+  "psychologists": [
+    {
+      "id": "1",
+      "name": "Dr. Jane Smith",
+      "specialty": "Depression & Anxiety",
+      "contact": "123-456-7890",
+      "email": "jane.smith@email.com"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Robert Green",
+      "specialty": "Stress Management",
+      "contact": "222-234-5567",
+      "email": "robert.green@email.com"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Emily Johnson",
+      "specialty": "Self-Confidence & Motivation",
+      "contact": "333-456-7890",
+      "email": "emily.johnson@email.com"
+    }
+  ],
+  "moodLogs": [
+    {
+      "id": "1",
+      "user": "Esther",
+      "mood": "Happy",
+      "note": "Feeling great today after a good sleep!"
+    },
+    {
+      "id": "2",
+      "user": "John Doe",
+      "mood": "Stressed",
+      "note": "Work has been overwhelming, need a break."
+    },
+    {
+      "id": "b2dc",
+      "user": "Anonymous",
+      "mood": "happy",
+      "note": "today is going great"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "name": "Dr. Jane Smith",
+      "psychologistId": "1",
+      "appointmentDate": "2021-03-30T10:00"
+    },
+    {
+      "id": "6284",
+      "name": "Esther",
+      "psychologistId": "2",
+      "appointmentDate": "2025-03-26T15:27"
+    }
+  ]
+}

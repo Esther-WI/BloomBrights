@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomBrights</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+<img src="./images/BloomBright.png" alt="BloomBrights" class="logo"> 
+    </section>
+    <section class="welcome">
+        <h1>Welcome to BloomBright! 🌸✨</h1>
+    </section>
+<section class="introduction">
+    <p>
+        Life can feel heavy sometimes, but at BloomBright, we’re here to bring a<br>
+        little light into your day. Whether you need a quick mood boost, gentle<br>
+        self-care reminders, or a safe space to talk to a professional, we’ve<br>
+        got you covered. Explore uplifting activities, track your emotions, and<br>
+        let positivity bloom—one small step at a time. You’re never alone on<br>
+        this journey, and brighter days are always ahead. 💖🌈<br>
+    </p>
+</section>
+<section class="buttons">
+    <p id ="quote">Loading Quotes ...</p>
+    <button id="new-quote">Get New Quote:)</button>
+</section>
+
+<section>
+    <h2>Log Your Mood</h2>
+    <form id="mood-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="mood">How do you feel?</label>
+        <input type="text" id="mood" name="mood" required>
+        <label for="note">Add a note...</label>
+        <input type="text" id="note" name="note">
+        <button type="submit">Submit Mood</button>
+    </form>
+
+    <ul id="mood-list"></ul>
+</section>
+
+<section>
+    <h2>Psychologists</h2>
+    <ul id="psychologists"></ul>
+</section>
+
+<section id="psychologist-details" style="display: none;">
+    <h2>Psychologists Detaills</h2>
+    <p id="psy-details"></p>
+    <button id="close-details">Close</button>
+</section>
+
+<section>
+    <h2>Book an Appointment.</h2>
+    <form id="booking-form">
+        <label for="booking-name">Your Name</label>
+        <input type="text" id="booking-name" name="name" required>
+
+        <label for="booking-psychologist">Choose a Psychologist</label>
+        <select id="booking-psychologist" name="psychologist" required>
+
+        </select>
+        <label for="booking-date">Preferred Date and Time:</label>
+        <input type="datetime-local" id="booking-date" name="date" required>
+
+        <button type="submit">Request Appointment</button>
+    </form>
+    <div id="booking-status"></div>
+</section>
+
+<section>
+        <h2>TESTOMONIALS</h2>
+        <p>
+<li>I just wanted to thank you for creating this site. It's awesome. Thank you!</li>
+Jennifer
+<br>
+<li>This site is very well thought out and I will be telling everyone about it. I would like to say thanks.</li>
+Jim
+<br>
+<li>I just wanted to tell you how happy I am that you have made this Bloombright available to use online. It is wonderful.Thanks.</li>
+Nan
+<br>
+<li>I just want to thank you for making this program available. It has been one of the best things for my treatment.</li>
+Deb
+<br>
+<li>This site is great! Thanks for being such a good resource.</li>
+Sarah
+<br>
+        </p>
+    </section>
+
+     <footer>
+                    &lt;&lt;&lt; &copy; Esther Wangari &gt;&gt;&gt;
+                    <p>
+                        No Copyright.
+                        All rights are reserved.
+                    </p>
+                </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
