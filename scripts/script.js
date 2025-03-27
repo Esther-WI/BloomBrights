@@ -148,9 +148,9 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("http://localhost:3000/psychologists")
       .then((response) => response.json())
       .then((data) => {
-        const psychologistSelect = document.getElementById(
-          "booking-psychologist"
-        );
+        const psychologistSelect = document.getElementById("booking-psychologist");
+        psychologistSelect.innerHTML = "";
+
         data.forEach((psy) => {
           let option = document.createElement("option");
           option.value = psy.id;
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
            
            userAppointments.forEach((appointment) => {
             const psychologist = psychologists.find(
-              psy => psy.id == appointment.psychologistId);
+              psy => psy.id === appointment.psychologistId);
              let li = document.createElement("li");
              li.innerText = `Appointment with ${psychologist ? psychologist.name + " (" + psychologist.specialty + ")" : "Unknown Psychologist"} on ${appointment.appointmentDate}`;
              appointmentsList.appendChild(li);

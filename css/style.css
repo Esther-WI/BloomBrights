@@ -1,0 +1,131 @@
+/* BloomBrights CSS - Vibrant & Cutesy Professional Design */
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Logo */
+.logo {
+    width: 180px;
+    height: 180px; /* Ensure the logo is a perfect circle */
+    border-radius: 50%; /* Makes the logo round */
+    display: block;
+    margin: 0 auto;
+    animation: bounceIn 1.5s ease-in-out;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+@keyframes bounceIn {
+    0% { transform: scale(0.8); opacity: 0; }
+    50% { transform: scale(1.1); opacity: 0.5; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    transform: scale(1.05);
+}
+
+/* Forms */
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Testimonials */
+.testimonials {
+    background: #ffecd2;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px 10px 0 0;
+} 
+
+footer p {
+    margin: 5px 0;
+} 
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section, button, form {
+    animation: fadeIn 1s ease-in-out;
+} 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+    form {
+        width: 95%;
+    }
+    button {
+        width: 100%;
+    }
+} 
